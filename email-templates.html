@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Modern solutions to phishing attacks. Coming soon.">
+    <meta name="developer" content="PhishBait Team">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="PhishBait" />
+	<meta property="og:site" content="phishbait.org" />
+	<meta property="og:title" content="PhishBait Email Templates"/>
+	<meta property="og:description" content="Modern solutions to phishing attacks. Coming soon." />
+	<meta property="og:image" content="images/infohook.jpg" />
+	<meta property="og:url" content="https://phishbait.org/email-templates.html" />
+	<meta name="twitter:card" content="summary_large_image">
+
+
+    <!-- Webpage Title -->
+    <title>PhishBait</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <a class="navbar-brand logo-text page-scroll" href="index.html">PhishBait</a>
+
+            <!-- Image Logo -->
+            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>  -->
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">			
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Phishing 101
+					  </a>
+					  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="email-templates.html">Email Templates</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="training-videos.html">Training Videos</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="user-guide.html">User Guide</a></li>
+					 </ul>
+					</li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="contact.html">Contact</a>
+                    </li>
+					<li class="nav-item">
+                        <form class="d-inline">
+							<a class="btn btn-outline-success" href="login.html" role="button">Sign In</a>
+							<!-- <button class="btn btn-outline-success" type="link" href="login.html">Sign In</button> -->
+		  				</form>
+                    </li>
+                </ul>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <div class="header">
+        <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h1 class="h1-large">Email <br> Templates</h1>
+                        <p class="p-large">Modern solutions to phishing attacks.<br>Coming Soon.</p>
+                        <a class="btn-solid-lg page-scroll" href="#statement">Learn More</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/infohook.png" alt="Info Hook Icon">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of header -->
+
+	
+	
+	<div class="centerTextDiv">
+		<h1 class="h1-large" style="padding-bottom: 1em">Email Templates</h1>
+	</div>
+	<!-- Control buttons -->
+	<div class="centerTextDiv" style="padding-bottom: 4em">
+		<div id="emailBtnContainer">
+		  <button class="emailBtn active" onclick="filterSelection('all')"> Show all</button>
+		</div>
+		<div class="dropdown">
+		  <button class="emailBtn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Filter Templates
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<a class="dropdown-item" onclick="filterSelection('cat1')"> Cat1</a>
+			<a class="dropdown-item" onclick="filterSelection('cat2')"> Cat2</a>
+			<a class="dropdown-item" onclick="filterSelection('cat3')"> Cat3</a>
+			<a class="dropdown-item" onclick="filterSelection('cat4')"> Cat4</a>
+		  </div>
+		</div>
+	</div>
+
+	<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+	<div class="emailContainer">
+	  <div class="emailFilterDiv cat1">
+			<div class="emailTextContainer">
+				<h4>Example 1</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat2">
+			<div class="emailTextContainer">
+				<h4>Example 2</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat3">
+			<div class="emailTextContainer">
+				<h4>Example 3</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat4">
+			<div class="emailTextContainer">
+				<h4>Example 4</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat1 cat3">
+			<div class="emailTextContainer">
+				<h4>Example 5</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat1 cat4">
+			<div class="emailTextContainer">
+				<h4>Example 6</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat2 cat4">
+			<div class="emailTextContainer">
+				<h4>Example 7</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat2 cat3">
+			<div class="emailTextContainer">
+				<h4>Example 8</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat3 cat4">
+			<div class="emailTextContainer">
+				<h4>Example 9</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat2 cat3">
+			<div class="emailTextContainer">
+				<h4>Example 10</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat4 cat2">
+			<div class="emailTextContainer">
+				<h4>Example 11</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat3 cat4">
+			<div class="emailTextContainer">
+				<h4>Example 12</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat1 cat3">
+			<div class="emailTextContainer">
+				<h4>Example 13</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat2 cat4">
+			<div class="emailTextContainer">
+				<h4>Example 14</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat1 cat2">
+			<div class="emailTextContainer">
+				<h4>Example 15</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat1 cat3">
+			<div class="emailTextContainer">
+				<h4>Example 16</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat3 cat4 cat2">
+			<div class="emailTextContainer">
+				<h4>Example 17</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	  <div class="emailFilterDiv cat1 cat2 cat3 cat4">
+			<div class="emailTextContainer">
+				<h4>Example 18</h4>
+				<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+				<div class="emailButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+			</div>
+	  </div>
+	</div>
+				
+	
+	<script> 
+		filterSelection("all")
+		function filterSelection(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("emailFilterDiv");
+		  if (c == "all") c = "";
+		  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+		  for (i = 0; i < x.length; i++) {
+			w3RemoveClass(x[i], "emailBtnShow");
+			if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "emailBtnShow");
+		  }
+		}
+
+		// Show filtered elements
+		function w3AddClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+			if (arr1.indexOf(arr2[i]) == -1) {
+			  element.className += " " + arr2[i];
+			}
+		  }
+		}
+
+		// Hide elements that are not selected
+		function w3RemoveClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+			while (arr1.indexOf(arr2[i]) > -1) {
+			  arr1.splice(arr1.indexOf(arr2[i]), 1);
+			}
+		  }
+		  element.className = arr1.join(" ");
+		}
+
+		// Add active class to the current control button (highlight it)
+		var btnContainer = document.getElementById("emailBtnContainer");
+		var btns = btnContainer.getElementsByClassName("emailBtn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function() {
+			var current = document.getElementsByClassName("active");
+			current[0].className = current[0].className.replace(" active", "");
+			this.className += " active";
+		  });
+		}
+	</script>
+
+    <!-- Footer -->
+    <div class="footer bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+					<p class="p-small">Copyright © <a class="no-line" href="#your-link">PhishBait</a></p>
+					<p class="p-small">Assets gathered under Creative Commons License</p>
+					<p class="p-small">Bootstrap gathered under Creative Commons License</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
