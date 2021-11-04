@@ -1,40 +1,11 @@
-/* Description: Master CSS file */
-
-/*****************************************
-Table Of Contents:
-
-- General Styles
-- Navigation
-- Header
-- Statement
-- Details 1
-- Details Lightbox
-- Details 2
-- Features
-- About
-- Statistics
-- Invitation
-- Contact
-- Footer
-- Copyright
-- Back To Top Button 
-- Extra Pages
-- Media Queries
-******************************************/
-
-/*****************************************
+/*****************************************************
 Colors:
-- Backgrounds, headings text - navy blue #102a43
-- Backgrounds - light gray #f2f3fd
-- Buttons, icons - blue #026cfe
-- Body text - dark gray #6b747b
-******************************************/
-
-
-/**************************/
-/*     General Styles     */
-/**************************/
-
+- Backgrounds, heading text, icons - Navy Blue #102A43
+- Backgrounds - white #FFFFFF
+- Secondary Backgrounds - Light Gray #F2F3FD
+- Buttons, icons - Blue-Green #02DAC5
+- Body text - dark gray #6B747B
+******************************************************/
 
 
 body,
@@ -307,7 +278,7 @@ a:hover {
 
 .form-control-input,
 .form-control-select {
-	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
+	display: block; 
 	width: 100%;
 	padding-top: 1.125rem;
 	padding-bottom: 0.125rem;
@@ -319,7 +290,7 @@ a:hover {
 	font-size: 0.875rem;
 	line-height: 1.875rem;
 	transition: all 0.2s;
-	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+	-webkit-appearance: none;
 }
 
 .form-control-select {
@@ -330,7 +301,6 @@ a:hover {
 }
 
 select {
-    /* you should keep these first rules in place to maintain cross-browser behavior */
     -webkit-appearance: none;
 	-moz-appearance: none;
 	-ms-appearance: none;
@@ -343,9 +313,9 @@ select {
 }
 
 .form-control-textarea {
-	display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+	display: block; 
 	width: 100%;
-	height: 14rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
+	height: 14rem; 
 	padding-top: 1.5rem;
 	padding-left: 1.3125rem;
 	border: 1px solid #cbcbd1;
@@ -361,7 +331,7 @@ select {
 .form-control-select:focus,
 .form-control-textarea:focus {
 	border: 1px solid #a1a1a1;
-	outline: none; /* Removes blue border on focus */
+	outline: none;
 }
 
 .form-control-input:hover,
@@ -462,7 +432,6 @@ input[type='checkbox'] {
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
-    margin-bottom: 3rem;
     padding: 2.5rem 1rem 1.125rem 1rem;
     border-radius: 10px;
     text-align: center;
@@ -516,12 +485,10 @@ input[type='checkbox'] {
   color: #ffffff;
 }
 
-/* The "show" class is added to the filtered elements */
 .emailBtnShow {
   display: block;
 }
 
-/* Style the buttons */
 .emailBtn {
   border: none;
   outline: none;
@@ -531,13 +498,11 @@ input[type='checkbox'] {
   cursor: pointer;
 }
 
-/* Add a light grey background on mouse-over */
 .emailBtn:hover {
   background-color: #02DAC5;
   color: #FFFFFF;
 }
 
-/* Add a dark background to the active button */
 .emailBtn.active {
   background-color: #02DAC5;
   color: white;
@@ -546,9 +511,82 @@ input[type='checkbox'] {
 
 
 
-/**********************/
+
+
+.trainingTextContainer{
+	padding: 4rem;
+	color: #ffffff;
+}
+
+.trainingButtonContainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.trainingTextContainer p{
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	color: #ffffff;
+}
+
+.trainingTextContainer h4{
+	color: #ffffff;
+}
+
+.trainingContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.trainingFilterDiv {
+  width: 40vw;
+  min-width: 550px;
+  height: auto;
+  background-color: #102A43;
+  margin-top: 10px;   
+  margin-bottom: 10px;
+  margin-left: 2%; 
+  margin-right: 2%; 
+  line-height: 100px;
+  text-align: left;
+  display: none; /* Hidden by default */
+  border-color: #02DAC5;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.trainingBtnShow {
+  display: block;
+}
+
+.trainingBtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #102A43;
+  color: #02DAC5;
+  cursor: pointer;
+}
+
+.trainingBtn:hover {
+  background-color: #02DAC5;
+  color: #FFFFFF;
+}
+
+.trainingBtn.active {
+  background-color: #02DAC5;
+  color: white;
+}
+
+
+
+
 /*     Navigation     */
-/**********************/
 .navbar {
 	background-color: #102a43;
 	font-weight: 600;
@@ -577,7 +615,7 @@ input[type='checkbox'] {
 
 .offcanvas-collapse {
 	position: fixed;
-	top: 3rem; /* adjusts the height between the top of the page and the offcanvas menu */
+	top: 3rem;
 	bottom: 0;
 	left: 100%;
 	width: 100%;
@@ -652,9 +690,7 @@ input[type='checkbox'] {
 }
 
 
-/*****************/
 /*    Header     */
-/*****************/
 .header {
 	position: relative;
 	overflow: hidden;
@@ -725,9 +761,7 @@ input[type='checkbox'] {
 /* end of wave animation */
 
 
-/*********************/
 /*     Statement     */
-/*********************/
 .basic-1 {
 	padding-top: 2rem;
 	padding-bottom: 3.75rem;
@@ -752,9 +786,7 @@ input[type='checkbox'] {
 }
 
 
-/*********************/
 /*     Details 1     */
-/*********************/
 .basic-2 {
 	padding-top: 3.75rem;
 	padding-bottom: 4.5rem;
@@ -786,10 +818,7 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 }
 
-
-/****************************/
 /*     Details Lightbox     */
-/****************************/
 .lightbox-basic {
 	position: relative;
 	max-width: 1150px;
@@ -856,7 +885,6 @@ input[type='checkbox'] {
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
 	color: #02DAC5;
 }
-/* end of action Button */
 
 /* Back Button */
 .lightbox-basic .btn-outline-reg.mfp-close.as-button {
@@ -877,7 +905,6 @@ input[type='checkbox'] {
 	background-color: #6b747b;
 	color: #ffffff;
 }
-/* end of back button */
 
 /* Close X Button */
 .lightbox-basic button.mfp-close.x-button {
@@ -888,12 +915,8 @@ input[type='checkbox'] {
 	height: 44px;
 	color: #555555;
 }
-/* end of close x button */
 
-
-/*********************/
 /*     Details 2     */
-/*********************/
 .basic-3 {
 	padding-top: 4.5rem;
 	padding-bottom: 4.5rem;
@@ -920,10 +943,7 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 }
 
-
-/********************/
 /*     Features     */
-/********************/
 .basic-4 {
 	padding-top: 4.5rem;
 	padding-bottom: 2.5rem;
@@ -948,10 +968,7 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
-
-/*****************/
 /*     About     */
-/*****************/
 .basic-5 {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -970,9 +987,7 @@ input[type='checkbox'] {
 }
 
 
-/**********************/
 /*     Statistics     */
-/**********************/
 .counter {
 	padding-top: 2rem;
 	padding-bottom: 3.5rem;
@@ -1006,10 +1021,7 @@ input[type='checkbox'] {
 	vertical-align: middle;
 }
 
-
-/**********************/
 /*     Invitation     */
-/**********************/
 .basic-6 {
 	text-align: center;
 }
@@ -1024,9 +1036,7 @@ input[type='checkbox'] {
 }
 
 
-/*******************/
 /*     Contact     */
-/*******************/
 .form-1 {
 	overflow-x: hidden;
 	padding-top: 7.75rem;
@@ -1058,9 +1068,7 @@ input[type='checkbox'] {
 }
 
 
-/******************/
 /*     Footer     */
-/******************/
 .footer {
 	padding-top: 5.25rem;
 	padding-bottom: 1rem;
@@ -1097,9 +1105,7 @@ input[type='checkbox'] {
 }
 
 
-/*********************/
 /*     Copyright     */
-/*********************/
 .copyright {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
@@ -1115,10 +1121,7 @@ input[type='checkbox'] {
 	color: #92989c;
 }
 
-
-/******************************/
 /*     Back To Top Button     */
-/******************************/
 a.back-to-top {
 	position: fixed;
 	z-index: 999;
@@ -1138,9 +1141,7 @@ a:hover.back-to-top {
 }
 
 
-/*************************/
 /*     Media Queries     */
-/*************************/	
 /* Min-width 768px */
 @media (min-width: 768px) {
 
@@ -1163,7 +1164,7 @@ a:hover.back-to-top {
 		padding-right: 2rem;
 		padding-left: 2rem;
 	}
-	/* end of features */
+	/* end of Features */
 
 
 	/* Invitation */
@@ -1447,8 +1448,5 @@ a:hover.back-to-top {
 	}
 	/* end of contact */
 }
-
-
-
 
 /* end of min-width 1200px */
