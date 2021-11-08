@@ -110,7 +110,7 @@
 			Filter Templates
 		  </button>
 		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-			<a class="dropdown-item" onclick="filterSelection('cat1')"> Cat1</a>
+			<a class="dropdown-item" onclick="filterSelection('basics')"> Basics</a>
 			<a class="dropdown-item" onclick="filterSelection('cat2')"> Cat2</a>
 			<a class="dropdown-item" onclick="filterSelection('cat3')"> Cat3</a>
 			<a class="dropdown-item" onclick="filterSelection('cat4')"> Cat4</a>
@@ -120,21 +120,8 @@
 
 	<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 	<div class="trainingContainer">
-	  <div class="trainingFilterDiv cat1">
-			<div class="trainingTextContainer">
-				<div class="row">
-					<div>
-						<h4>Introduction to Phishing</h4>
-						<p>This is the first in a series of video training modules. You will learn what phishing is on a basic level so that individuals with varying levels of technical knowledge​ will understand.</p>
-					</div>
-					<div>
-						<iframe width="500" height="300" src="https://www.youtube.com/embed/jFpuvuU-mHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-	  </div>
-		
-	  <div class="trainingFilterDiv cat2">
+	<!-- Style option 1 -->
+	  <div class="trainingFilterDiv basics">
 			<div class="trainingTextContainer">
 				<div class="row">
 					<div class="col-md" style="display: flex; align-items: center">
@@ -151,10 +138,24 @@
 			</div>
 	  </div>
 		
-		
-		
-		
-		
+	  <div class="trainingFilterDiv cat2">
+			<div class="trainingTextContainer">
+				<div class="row">
+					<div class="col-md" style="display: flex; align-items: center">
+						<img style="margin: 0px 0px 15px 0px; width:100%; vertical-align: middle; " src="images/lightbox-example-1.PNG" width="100%" alt="Placeholder Image"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md">
+						<h4>Introduction to Phishing</h4>
+						<p>This is the first in a series of video training modules. You will learn what phishing is on a basic level so that individuals with varying levels of technical knowledge​ will understand.</p>
+					</div>
+				</div>
+				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-2">Learn More</a></div>
+			</div>
+	  </div>
+	<!-- end of style option 1 -->
+	<!-- style option 2 -->
 		
 	  <div class="trainingFilterDiv cat3">
 			<div class="trainingTextContainer">
@@ -167,7 +168,7 @@
 						<img style="float: right; margin: 0px 0px 15px 15px; width:100%; vertical-align: middle; " src="images/lightbox-example-1.PNG" width="100%" alt="Placeholder Image"/>
 					</div>
 				</div>
-				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-1">Learn More</a></div>
+				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-3">Learn More</a></div>
 			</div>
 	  </div>
 	  <div class="trainingFilterDiv cat4">
@@ -181,70 +182,75 @@
 						<img style="float: right; margin: 0px 0px 15px 15px; width:100%; vertical-align: middle; " src="images/lightbox-example-1.PNG" width="100%" alt="Placeholder Image"/>
 					</div>
 				</div>
-				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-1">Learn More</a></div>
+				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-4">Learn More</a></div>
 			</div>
 	  </div>
-	  <div class="trainingFilterDiv cat1 cat2">
+	<!-- end of style option 2 -->
+	  <div class="trainingFilterDiv basics cat3">
+			<div class="trainingTextContainer">
+				<div class="row">
+					<div class="col-md" style="display: flex; align-items: center">
+						<img style="margin: 0px 0px 15px 0px; width:100%; vertical-align: middle; " src="images/lightbox-example-1.PNG" width="100%" alt="Placeholder Image"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md">
+						<h4>Introduction to Phishing</h4>
+						<p>This is the first in a series of video training modules. You will learn what phishing is on a basic level so that individuals with varying levels of technical knowledge​ will understand.</p>
+					</div>
+				</div>
+				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-5">Learn More</a></div>
+			</div>
+	  </div>
+		
+	  <div class="trainingFilterDiv cat2 cat4">
+			<div class="trainingTextContainer">
+				<div class="row">
+					<div class="col-md" style="display: flex; align-items: center">
+						<img style="margin: 0px 0px 15px 0px; width:100%; vertical-align: middle; " src="images/lightbox-example-1.PNG" width="100%" alt="Placeholder Image"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md">
+						<h4>Introduction to Phishing</h4>
+						<p>This is the first in a series of video training modules. You will learn what phishing is on a basic level so that individuals with varying levels of technical knowledge​ will understand.</p>
+					</div>
+				</div>
+				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-6">Learn More</a></div>
+			</div>
+	  </div>
+	<!-- end of style option 1 -->
+	<!-- style option 2 -->
+		
+	  <div class="trainingFilterDiv cat3 cat4">
 			<div class="trainingTextContainer">
 				<div class="row">
 					<div class="col-md-6">
-						<h4>Example 5</h4>
-						<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+						<h4>Introduction to Phishing</h4>
+						<p>This is the first in a series of video training modules. You will learn what phishing is on a basic level so that individuals with varying levels of technical knowledge​ will understand.</p>
 					</div>
 					<div class="col-md-6" style="display: flex; align-items: center">
-						<img style="float: right; margin: 0px 0px 15px 15px; width:100%; vertical-align: middle; " src="images/placeholder.png" width="100%" alt="Placeholder Image"/>
+						<img style="float: right; margin: 0px 0px 15px 15px; width:100%; vertical-align: middle; " src="images/lightbox-example-1.PNG" width="100%" alt="Placeholder Image"/>
 					</div>
 				</div>
-				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-7">Learn More</a></div>
 			</div>
 	  </div>
 	  <div class="trainingFilterDiv cat2 cat3">
 			<div class="trainingTextContainer">
 				<div class="row">
 					<div class="col-md-6">
-						<h4>Example 6</h4>
-						<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
+						<h4>Introduction to Phishing</h4>
+						<p>This is the first in a series of video training modules. You will learn what phishing is on a basic level so that individuals with varying levels of technical knowledge​ will understand.</p>
 					</div>
 					<div class="col-md-6" style="display: flex; align-items: center">
-						<img style="float: right; margin: 0px 0px 15px 15px; width:100%; vertical-align: middle; " src="images/placeholder.png" width="100%" alt="Placeholder Image"/>
+						<img style="float: right; margin: 0px 0px 15px 15px; width:100%; vertical-align: middle; " src="images/lightbox-example-1.PNG" width="100%" alt="Placeholder Image"/>
 					</div>
 				</div>
-				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
+				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow popup-with-move-anim" href="#details-lightbox-8">Learn More</a></div>
 			</div>
 	  </div>
-	  <div class="trainingFilterDiv cat1 cat4">
-			<div class="trainingTextContainer">
-				<div class="row">
-					<div class="col-md-6">
-						<h4>Example 7</h4>
-						<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
-					</div>
-					<div class="col-md-6" style="display: flex; align-items: center">
-						<img style="float: right; margin: 0px 0px 15px 15px; width:100%; vertical-align: middle; " src="images/placeholder.png" width="100%" alt="Placeholder Image"/>
-					</div>
-				</div>
-				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
-			</div>
-	  </div>
-	  <div class="trainingFilterDiv cat3 cat4">
-			<div class="trainingTextContainer">
-				<div class="row">
-					<div class="col-md-6">
-						<h4>Example 8</h4>
-						<p>Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text. Filler text about phishing. Text about phishing information would go in the place of this text.</p>
-					</div>
-					<div class="col-md-6" style="display: flex; align-items: center">
-						<img style="float: right; margin: 0px 0px 15px 15px; width:100%; vertical-align: middle; " src="images/placeholder.png" width="100%" alt="Placeholder Image"/>
-					</div>
-				</div>
-				<div class="trainingButtonContainer"><a class="btn-solid-reg-no-shadow" href="#your-link">Learn More</a></div>
-			</div>
-	  </div>
-
-	 
 	</div>
-		
-	
 	
     <!-- Lightboxes -->
     <!-- Example 1 -->
@@ -282,7 +288,253 @@
 			</div>
 		</div>
     </div>
-    <!-- end of example 1 -->
+    <!-- end of example 2 -->
+		<div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-8" style="height:100%">
+                <div class="image-container">
+					<div>
+						<iframe width="100%" height="500vw" src="https://www.youtube.com/embed/jFpuvuU-mHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+                </div>
+			</div>
+			<div class="col-lg-4">
+                <h3>Phishing Introduction</h3>
+				<hr>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <h4>Things You Will Learn About</h4>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <ul class="list-unstyled li-space-lg">
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 1</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 2</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 3</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 4</div>
+                    </li>
+                </ul>
+                <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+			</div>
+		</div>
+    </div>
+    <!-- end of example 2 -->
+		<div id="details-lightbox-3" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-8" style="height:100%">
+                <div class="image-container">
+					<div>
+						<iframe width="100%" height="500vw" src="https://www.youtube.com/embed/jFpuvuU-mHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+                </div>
+			</div>
+			<div class="col-lg-4">
+                <h3>Phishing Introduction</h3>
+				<hr>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <h4>Things You Will Learn About</h4>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <ul class="list-unstyled li-space-lg">
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 1</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 2</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 3</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 4</div>
+                    </li>
+                </ul>
+                <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+			</div>
+		</div>
+    </div>
+    <!-- end of example 3 -->
+		<div id="details-lightbox-4" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-8" style="height:100%">
+                <div class="image-container">
+					<div>
+						<iframe width="100%" height="500vw" src="https://www.youtube.com/embed/jFpuvuU-mHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+                </div>
+			</div>
+			<div class="col-lg-4">
+                <h3>Phishing Introduction</h3>
+				<hr>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <h4>Things You Will Learn About</h4>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <ul class="list-unstyled li-space-lg">
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 1</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 2</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 3</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 4</div>
+                    </li>
+                </ul>
+                <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+			</div>
+		</div>
+    </div>
+    <!-- end of example 4 -->
+		<div id="details-lightbox-5" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-8" style="height:100%">
+                <div class="image-container">
+					<div>
+						<iframe width="100%" height="500vw" src="https://www.youtube.com/embed/jFpuvuU-mHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+                </div>
+			</div>
+			<div class="col-lg-4">
+                <h3>Phishing Introduction</h3>
+				<hr>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <h4>Things You Will Learn About</h4>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <ul class="list-unstyled li-space-lg">
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 1</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 2</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 3</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 4</div>
+                    </li>
+                </ul>
+                <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+			</div>
+		</div>
+    </div>
+    <!-- end of example 5 -->
+		<div id="details-lightbox-6" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-8" style="height:100%">
+                <div class="image-container">
+					<div>
+						<iframe width="100%" height="500vw" src="https://www.youtube.com/embed/jFpuvuU-mHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+                </div>
+			</div>
+			<div class="col-lg-4">
+                <h3>Phishing Introduction</h3>
+				<hr>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <h4>Things You Will Learn About</h4>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <ul class="list-unstyled li-space-lg">
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 1</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 2</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 3</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 4</div>
+                    </li>
+                </ul>
+                <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+			</div>
+		</div>
+    </div>
+    <!-- end of example 6 -->
+		<div id="details-lightbox-7" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-8" style="height:100%">
+                <div class="image-container">
+					<div>
+						<iframe width="100%" height="500vw" src="https://www.youtube.com/embed/jFpuvuU-mHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+                </div>
+			</div>
+			<div class="col-lg-4">
+                <h3>Phishing Introduction</h3>
+				<hr>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <h4>Things You Will Learn About</h4>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <ul class="list-unstyled li-space-lg">
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 1</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 2</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 3</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 4</div>
+                    </li>
+                </ul>
+                <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+			</div>
+		</div>
+    </div>
+    <!-- end of example 7 -->
+		<div id="details-lightbox-8" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-8" style="height:100%">
+                <div class="image-container">
+					<div>
+						<iframe width="100%" height="500vw" src="https://www.youtube.com/embed/jFpuvuU-mHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+                </div>
+			</div>
+			<div class="col-lg-4">
+                <h3>Phishing Introduction</h3>
+				<hr>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <h4>Things You Will Learn About</h4>
+                <p>This is a few sentences about the video. More information can be added below as well.</p>
+                <ul class="list-unstyled li-space-lg">
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 1</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 2</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 3</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Main point 4</div>
+                    </li>
+                </ul>
+                <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+			</div>
+		</div>
+    </div>
+    <!-- end of example 8 -->
+
     <!-- end of lightboxes -->
 	
 				
