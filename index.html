@@ -45,7 +45,7 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">			
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="user-guide.html">User Guide</a>
+                        <a class="nav-link page-scroll" href="campaign-guide.html" style="display: none;">Campaign Guide</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="email-templates.html">Email Templates</a>
@@ -190,13 +190,54 @@
             </div>
         </div>
     </div>
-    <div class="basic-6">
+	
+	<!-- Contact -->
+    <div id="contact" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Contact Us:</h2>
+                    <p class="p-heading">Questions? Feel free to reach out through the contact form or <a class="blue no-line" href="mailto:team@phishbait.org">team@phishbait.org</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Contact Form -->
+                    <div class="form-container"> 
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="cname" required>
+                                <label class="label-control" for="cname">Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control-input" id="cemail" required>
+                                <label class="label-control" for="cemail">Email</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                                <label class="label-control" for="cmessage">Your message</label>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">Submit Message</button>
+                            </div>
+                        </form>
+                    </div> <!-- end of form-container -->
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of contact -->
+	
+    <div class="basic-6" style="background: #102a43">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container">
-                        <h2>IT Expo 2022</h2>
-						<h3 id="demo"></h3>
+                        <h2 style="color: #FFFFFF">IT Expo 2022</h2>
+						<h3 id="demo" style="color: #FFFFFF"></h3>
 
 						<script>
 						var countDownDate = new Date("Apr 12, 2022 09:00:00").getTime();
@@ -220,19 +261,9 @@
 			</div>
         </div>
     </div>
-    <div class="basic-6" style="background: #102a43">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container">
-                        <h2 style="color: #FFFFFF">Contact Us:</h2>
-				<p style="color: #FFFFFF">Email:radclish@mail.uc.edu</p>
-                       		<p style="color: #FFFFFF">Phone:513-555-5555</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	
+	
+	
     <!-- Footer -->
     <div class="footer bg-gray">
         <div class="container">
