@@ -531,6 +531,7 @@ input[type='checkbox'] {
 }
 
 .trainingTextContainer h4{
+	margin-top: 1.5rem;
 	color: #ffffff;
 }
 
@@ -584,6 +585,67 @@ input[type='checkbox'] {
 }
 
 
+
+.indexFilterDiv {
+  width: 25vw;
+  min-width: 400px;
+  height: auto;
+  background-color: #f2f3fd;
+  margin-top: 10px;   
+  margin-bottom: 10px;
+  margin-left: 2%; 
+  margin-right: 2%; 
+  line-height: 100px;
+  text-align: center;
+  display: flex; /* Hidden by default */
+  color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.indexTextContainer{
+	margin-bottom: 3rem;
+	padding: 2.5rem 1rem 1.125rem 1rem;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.indexButtonContainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.indexTextContainer p{
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	color: #6b747b;
+	font: 500 1.15rem/1.75rem "Open Sans", sans-serif;
+}
+
+.indexTextContainer h4{
+	color: #102a43;
+	font: 600 1.7rem/2.3rem "Poppins", sans-serif;
+}
+
+.indexContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	filter: drop-shadow(-4px 4px 4px #585858);
+	padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+	
+}
+
+.indexTextContainer .fas {
+	margin-bottom: 1.5rem;
+	color: #02DAC5;
+	font-size: 3.25rem;
+}
 
 
 /*     Navigation     */
