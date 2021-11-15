@@ -87,34 +87,31 @@
         </div>
     </div>
 
-<!-- Features -->
-    <div id="features" class="basic-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="text-box-center bg-gray" style="filter: drop-shadow(-4px 4px 4px #585858)">
-			<i class="fas fa-question-circle"></i>
-                        <h4>What</h4>
-                        <p>Phishing is a cyber-attack where the target or targets receive a fraudulent email, text message, or phone call from the attacker who is posing as a legitimate entity to lure their targets into revealing personal information, such as credit card information or passwords</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="text-box-center bg-gray" style="filter: drop-shadow(-4px 4px 4px #585858)">
-                        <i class="fas fa-cogs"></i>
-                        <h4>How</h4>
-                        <p>The most common type of phishing attack is delivered through email. The sender generally poses as a legitimate company and tries to pry personal information out of their target using shock tactics. The email could pretend to be from your bank or a social media site. The goal of the email is to trick the user into clicking the link which will lead them into a fake website pretending to be the legitimate company. The user then logs in which gives the attackers the user’s login information.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="text-box-center bg-gray" style="filter: drop-shadow(-4px 4px 4px #585858)">
-                        <i class="fas fa-bullseye"></i>
-                        <h4>Why</h4>
-                        <p>Phishing is so effective because users lack security awareness. Attackers will also rely on the sense of surprise. Not all users know what phishing is, so they don’t even know they are potential targets. Attackers will pick a time, such as work, where users are distracted. This gives attackers a better chance to catch a user in a phishing scheme.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+	<div class="indexContainer">
+	  <div class="indexFilterDiv">
+			<div class="indexTextContainer" >
+				<i class="fas fa-question-circle"></i>
+				<h4>What</h4>
+				<p>Phishing is a cyber-attack where the target or targets receive a fraudulent email, text message, or phone call from the attacker who is posing as a legitimate entity to lure their targets into revealing personal information, such as credit card information or passwords</p>
+			</div>
+	  </div>
+	  <div class="indexFilterDiv">
+			<div class="indexTextContainer">
+				<i class="fas fa-cogs"></i>
+				<h4>How</h4>
+				<p>The most common type of phishing attack is delivered through email. The sender generally poses as a legitimate company and tries to pry personal information out of their target using shock tactics. The email could pretend to be from your bank or a social media site. The goal of the email is to trick the user into clicking the link which will lead them into a fake website pretending to be the legitimate company. The user then logs in which gives the attackers the user’s login information.</p>
+			</div>
+	  </div>
+	  <div class="indexFilterDiv">
+			<div class="indexTextContainer">
+				<i class="fas fa-bullseye"></i>
+				<h4>Why</h4>
+				<p>Phishing is so effective because users lack security awareness. Attackers will also rely on the sense of surprise. Not all users know what phishing is, so they don’t even know they are potential targets. Attackers will pick a time, such as work, where users are distracted. This gives attackers a better chance to catch a user in a phishing scheme.</p>
+			</div>
+	  </div>
+	</div>	
+	
 
     <!-- Details 2 -->
     <div id="EmailTemplates" class="basic-2">
@@ -134,7 +131,7 @@
                                 <div class="media-body"><strong>Help you send out more accurate phising campaigns</strong> </div>
                             </li>
                         </ul> 
-                        <a class="btn-solid-reg" href="#your-link">Details</a>
+                        <a class="btn-solid-reg" href="email-templates.html">Details</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-7">
@@ -169,7 +166,7 @@
                                 <div class="media-body"><strong>Provide better security for your company from phising attacks</strong> </div>
                             </li>
                         </ul> 
-                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox">Details</a>
+                        <a class="btn-solid-reg popup-with-move-anim" href="training-videos.html">Details</a>
                     </div>
                 </div>
             </div>
@@ -202,10 +199,8 @@
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
-                    
-                    <!-- Contact Form -->
                     <div class="form-container"> 
-                        <form>
+                        <form method="post" action="mailto:team@phishbait.org">
                             <div class="form-group">
                                 <input type="text" class="form-control-input" id="cname" required>
                                 <label class="label-control" for="cname">Name</label>
@@ -216,15 +211,13 @@
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                                <label class="label-control" for="cmessage">Your message</label>
+                                <label class="label-control" for="cmessage" name="message">Your message</label>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="form-control-submit-button">Submit Message</button>
                             </div>
                         </form>
-                    </div> <!-- end of form-container -->
-                    <!-- end of contact form -->
-
+                    </div>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -271,7 +264,6 @@
                 <div class="col-lg-12">
 					<p class="p-small">Copyright © <a class="no-line" href="#your-link">PhishBait</a></p>
 					<p class="p-small">Assets gathered under Creative Commons License</p>
-					<p class="p-small">Bootstrap gathered under Creative Commons License</p>
                 </div>
             </div>
         </div>
