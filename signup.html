@@ -84,8 +84,20 @@
             <div class="row">
 				<form name="f1" action = "register.php" method = "POST">
 				  <div class="mb-3">
+					<label for="FirstName" class="form-label" style="color: #FFFFFF">First Name</label>
+					<input type="text" name="FirstName" class="form-control" id="FirstName">
+				  </div>
+				  <div class="mb-3">
+					<label for="LastName" class="form-label" style="color: #FFFFFF">Last Name</label>
+					<input type="text" name="LastName" class="form-control" id="LastName">
+				  </div>
+				  <div class="mb-3">
 					<label for="email" class="form-label" style="color: #FFFFFF">Email address</label>
 					<input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+				  </div>
+				  <div class="mb-3">
+					<label for="userid" class="form-label" style="color: #FFFFFF">User Name</label>
+					<input type="varchar" name="userid" class="form-control" id="userid">
 				  </div>
 				  <div class="mb-3">
 					<label for="pass" class="form-label" style="color: #FFFFFF">Password</label>

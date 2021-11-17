@@ -16,16 +16,24 @@
 	$email = $_POST['email'];
 	$userpassword = $_POST['Userpassword'];
 	$hashed_password = password_hash($userpassword, PASSWORD_DEFAULT);
+	$FirstName = $_POST['FirstName'];
+	$LastName = $_POST['LastName'];
+	$userid = $_POST['userid'];
+
+
 
 	// database insert SQL code
-	$sql = "INSERT INTO `login` (`email`, `password`) VALUES ('$email', '$hashed_password')";
+	$sql = "INSERT INTO `login` (`email`, `password`, `userid`) VALUES ('$email', '$hashed_password', '$userid')";
 
 	// insert in database 
 	$rs = mysqli_query($con, $sql);
 
+	$sql = "INSERT INTO `names` (`FirstName`, `LastName`, `userid`) VALUES ('$FirstName', '$LastName', '$userid')";
+	$rs = mysqli_query($con, $sql);
+
 	if($rs)
 	{
-		echo "Contact Records Inserted";
+		echo "Welcome ", $FirstName;
 	}
 
 ?>
